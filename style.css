@@ -67,7 +67,8 @@ html, body {
 /* footer */
 
 .footer{background-color: #f7f8f9;}
-.footer .japan{padding: 15px 30px; font-size: 15px; border-bottom: 1px solid #dadce0;}
+.footer .japan{padding: 0 20px; font-size: 15px; border-bottom: 1px solid #dadce0;}
+.japan p{padding: 15px;}
 .leftright{display: flex; justify-content: space-between; padding: 0 20px;}
 .leftright p{padding: 15px; display: flex; font-size: 14px;}
 .left {display: flex;}
