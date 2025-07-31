@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*reset*/
+* {margin: 0;padding: 0;}
+* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;} 
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.main {
+  flex: 1;
+}
+.maininner{ padding: 26px 20px 20px 20px;}
+.wrap{max-width: 1480px; margin-left: auto; margin-right: auto; min-height: 100%; display: flex; flex-direction: column; }
+.header{display: flex; justify-content: flex-end; gap: 30px; font-size: 13px; color: #000000de;}
+.header p{padding: 12px;}
+
+.logo{height: 290px;  display: flex; flex-direction: column; justify-content: end; align-items: center;}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #dadce0; 
+  border-radius: 26px;
+  background-color: white;
+  min-height: 50px;
+  max-width: 582px;
+  box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.08);
+}
+
+.search-box input {
+  font-family: Arial, sans-serif;
+  line-height: 22px;
+  border-bottom: 8px solid transparent;
+  padding-top: 14px;
+  overflow-x: hidden;
+  width: 100%;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.fa-magnifying-glass{padding: 0 13px 0 14px;}
+.fa-microphone-lines{padding: 0 14px 0 13px;}
+
+.ment{ font-size: 14px; display: flex; justify-content: center; padding-top: 18px;}
+.ment p{padding: 0 16px; margin: 11px 4px; background-color: #f8f9fa; line-height: 36px; height: 36px; border-radius: 4px;
+    font-family: Arial, sans-serif; cursor: pointer; text-align: center; min-width: 54px; font-size: 14px;}
+
+.advice{font-size: 13px; color: #474747; text-align: center;}
+.advice span{color: #1a0dab;;}
+/* footer */
+
+.footer{background-color: #f7f8f9;}
+.footer .japan{padding: 15px 30px; font-size: 15px; border-bottom: 1px solid #dadce0;}
+.leftright{display: flex; justify-content: space-between; padding: 0 20px;}
+.leftright p{padding: 15px; display: flex; font-size: 14px;}
+.left {display: flex;}
+.right {display: flex; }
